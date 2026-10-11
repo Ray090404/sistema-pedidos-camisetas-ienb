@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Congresso Gênesis & Maranata</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main class="container">
+
+        <header class="cabecalho">
+            <div class="simbolo">✝</div>
+
+            <span class="subtitulo">CONGRESSO 2026</span>
+
+            <h1>Gênesis <span>&</span> Maranata</h1>
+
+            <p class="frase">Dois grupos, um só propósito.</p>
+
+            <div class="linha-decorativa"></div>
+
+            <p class="descricao">
+                Preencha seus dados para informar o modelo
+                e o tamanho da sua camisa.
+            </p>
+        </header>
+
+        <section class="formulario">
+            <h2>Pedido de camisetas</h2>
+
+            <p class="instrucao">
+                Preencha os campos abaixo com atenção.
+            </p>
+
+            <form id="formCamisa">
+
+                <label for="nome">Seu nome completo</label>
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite seu nome completo"
+                    maxlength="100"
+                    required
+                >
+
+                <label for="modelo">Modelo da camisa</label>
+                <select id="modelo" required>
+                    <option value="">Selecione o modelo</option>
+                    <option value="Masculina">Masculina</option>
+                    <option value="Feminina">Feminina</option>
+                    <option value="Baby look">Feminina Baby Look</option>
+                </select>
+
+                <label for="tamanho">Tamanho da camisa</label>
+                <select id="tamanho" required>
+                    <option value="">Selecione o tamanho</option>
+                    <option value="P">P</option>
+                    <option value="M">M</option>
+                    <option value="G">G</option>
+                    <option value="GG">GG</option>
+                    <option value="EXG">EXG </option>
+                </select>
+
+                <p class="aviso-tamanho" id="avisoTamanho">
+                    Selecione o modelo para conferir os tamanhos disponíveis.
+                </p>
+
+                <button type="submit" id="btnEnviar">
+                    Enviar resposta
+                </button>
+
+                <p id="mensagem" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <footer>
+            
+            <p>Obrigado por fazer parte deste propósito!</p>
+            <span>Gênesis • Maranata • </span>
+        </footer>
+
+    </main>
+</body>
+</html>
