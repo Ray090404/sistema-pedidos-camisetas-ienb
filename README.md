@@ -27,3 +27,9 @@ Aplicar conhecimentos de desenvolvimento web na construção de uma solução pr
 ## Autor
 
 Desenvolvido por Ray Araújo, com auxílio de ferramentas de inteligência artificial durante o processo de desenvolvimento.
+
+## Acesse o projeto
+
+**Site publicado:** https://site-camisas-j4j93ih79-ray090404s-projects.vercel.app/
+
+**Código-fonte:** https://github.com/Ray090404/sistema-pedidos-camisetas-ienb
